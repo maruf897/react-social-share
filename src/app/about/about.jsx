@@ -2,6 +2,7 @@ import React from "react";
 import ContentShare from "../../components/content-share/ContentShare";
 import MetaDecorator from "../../components/MetaDecorator";
 import Image from "../home/static/image/image.jpg"
+import aboutImg from "./shadhin-labs.png"
 export default function About() {
 	let userIdShare = window.location.href;
 	return <div>

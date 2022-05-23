@@ -24,7 +24,8 @@ const Home = () => {
         <div className="container">
             {/*<MetaDecorator description={data.course_description_summery} imageUrl={data.thumbnail} imageAlt={data.course_name}*/}
             {/*               title={data.course_name}/>*/}
-            <MetaDecorator description="Lorem Ipsum is simply dummy text of the printing and typesetting industry" imageUrl={Image} imageAlt="home image" title="Home Page" />
+            <MetaDecorator description="Lorem Ipsum is simply dummy text of the printing and typesetting industry"
+             imageUrl={Image} imageAlt="home image" title="Home Page" />
             <h1 className="text-center">Lorem Ipsum</h1>
             <p>"Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit..." "There
                 is no one who loves pain itself, who seeks after it and wants to have it, simply because it is pain..."
