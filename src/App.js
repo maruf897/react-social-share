@@ -85,7 +85,7 @@ function Dashboard() {
                 <MetaDecorator description="This is dash page description"
                     imageUrl={smolImg} imageAlt="dash image" title="dash Page" />
 
-                <img src={smolImg} />
+                <img src={dashImg} />
                 About pagess
                 <ContentShare url={userIdShare} /></div>;
         </div>
