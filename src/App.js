@@ -8,6 +8,7 @@ import MetaDecorator from './components/MetaDecorator';
 import ContentShare from './components/content-share/ContentShare';
 import aboutImg from "./app/about/shadhin-labs.png"
 import dashImg from "./app/about/dash.png"
+import smolImg from "./app/about/small.jpg"
 function App() {
     return (
 
@@ -81,10 +82,10 @@ function Dashboard() {
         <div>
             <h2>Dashboard</h2>
             <div>
-                <MetaDecorator description="This is about page description"
-                    imageUrl={aboutImg} imageAlt="about image" title="About Page" />
+                <MetaDecorator description="This is dash page description"
+                    imageUrl={aboutImg} imageAlt="dash image" title="dash Page" />
 
-                <img src={dashImg} />
+                <img src={smolImg} />
                 About pagess
                 <ContentShare url={userIdShare} /></div>;
         </div>
