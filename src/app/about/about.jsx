@@ -6,7 +6,8 @@ import aboutImg from "./shadhin-labs.png"
 export default function About() {
 	let userIdShare = window.location.href;
 	return <div>
-            <MetaDecorator description="Lorem Ipsum is simply dummy text of the printing and typesetting industry" imageUrl={Image} imageAlt="home image" title="About Page" />
+            <MetaDecorator description="This is about page description"
+			 imageUrl={aboutImg} imageAlt="about image" title="About Page" />
 		
 		About pagess
 		<ContentShare url={userIdShare}/></div>;
