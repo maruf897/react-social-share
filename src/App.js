@@ -78,13 +78,13 @@ function Dashboard() {
     return (
         <div>
             <h2>Dashboard</h2>
-            <div>
+            {/* <div>
                 <MetaDecorator description="This is about page description"
-                    imageUrl={aboutImg} imageAlt="about image" title="About Page" />
-                {/* <img src={aboutImg}/> */}
-                {/* <img src={}/> */}
-                About pagess
-                <ContentShare url={userIdShare} /></div>;
+                    imageUrl={aboutImg} imageAlt="about image" title="About Page" /> */}
+            {/* <img src={aboutImg}/> */}
+            {/* <img src={}/> */}
+            {/* About pagess
+                <ContentShare url={userIdShare} /></div>; */}
         </div>
     );
 }
