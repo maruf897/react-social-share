@@ -4,6 +4,8 @@ import { Helmet } from "react-helmet";
 import { Route, Router, Link, Switch } from 'react-router-dom';
 import { BrowserRouter } from 'react-router-dom';
 import About from './app/about/about';
+import MetaDecorator from './components/MetaDecorator';
+import ContentShare from './components/content-share/ContentShare';
 
 function App() {
     return (
@@ -76,6 +78,13 @@ function Dashboard() {
     return (
         <div>
             <h2>Dashboard</h2>
+            <div>
+                <MetaDecorator description="This is about page description"
+                    imageUrl={aboutImg} imageAlt="about image" title="About Page" />
+                {/* <img src={aboutImg}/> */}
+                {/* <img src={}/> */}
+                About pagess
+                <ContentShare url={userIdShare} /></div>;
         </div>
     );
 }

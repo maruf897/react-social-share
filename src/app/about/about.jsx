@@ -7,7 +7,7 @@ export default function About() {
 	let userIdShare = window.location.href;
 	return <div>
             <MetaDecorator description="This is about page description"
-			 imageUrl={aboutImg} imageAlt="about image" title="About Page" />
+			 imageUrl={Image} imageAlt="about image" title="About Page" />
 		<img src={aboutImg}/>
 		<img src={Image}/>
 		About pagess
