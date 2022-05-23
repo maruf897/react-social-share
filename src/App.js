@@ -1,7 +1,7 @@
 import './App.css';
 import Home from "./app/home/home";
 import { Helmet } from "react-helmet";
-import { BrowserRouter, Routes, Route } from 'react-router-dom';
+import { BrowserRouter, Routes, Route, Router } from 'react-router-dom';
 import About from './app/about/about';
 
 function App() {
@@ -13,13 +13,13 @@ function App() {
                 <meta name="description" content="App Description" />
                 <meta name="theme-color" content="#008f68" />
             </Helmet>
-            <BrowserRouter>
+            <Router>
                 <Routes>
                     <Route path="/about" element={<About />} />
                     <Route path="/" exact
                         element={<Home />} />
                 </Routes>
-            </BrowserRouter>
+            </Router>
 
         </div>
     );
