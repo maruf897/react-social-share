@@ -83,7 +83,7 @@ function Dashboard() {
             <h2>Dashboard</h2>
             <div>
                 <MetaDecorator description="This is dash page description"
-                    imageUrl={aboutImg} imageAlt="dash image" title="dash Page" />
+                    imageUrl={smolImg} imageAlt="dash image" title="dash Page" />
 
                 <img src={smolImg} />
                 About pagess

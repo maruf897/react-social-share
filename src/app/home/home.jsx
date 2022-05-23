@@ -2,7 +2,7 @@ import React, {useEffect, useState} from 'react';
 import Image from "./static/image/image.jpg"
 import MetaDecorator from "../../components/MetaDecorator";
 import ContentShare from "../../components/content-share/ContentShare";
-
+import smolImg from"../about/small.jpg"
 const Home = () => {
     const [data, setData] = useState({})
     console.log(window.location)
@@ -30,7 +30,7 @@ const Home = () => {
             <p>"Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit..." "There
                 is no one who loves pain itself, who seeks after it and wants to have it, simply because it is pain..."
             </p>
-            <img className="img-fluid" style={{height: "400px!important"}} src={Image} alt=""/>
+            <img className="img-fluid" style={{height: "400px!important"}} src={smolImg} alt=""/>
 
             <div className="row">
                 <div className="col-md-6">
