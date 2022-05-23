@@ -8,7 +8,7 @@ export default function About() {
 	return <div>
             <MetaDecorator description="This is about page description"
 			 imageUrl={Image} imageAlt="about image" title="About Page" />
-		<img src={aboutImg}/>
+		{/* <img src={aboutImg}/> */}
 		<img src={Image}/>
 		About pagess
 		<ContentShare url={userIdShare}/></div>;

@@ -6,7 +6,8 @@ import { BrowserRouter } from 'react-router-dom';
 import About from './app/about/about';
 import MetaDecorator from './components/MetaDecorator';
 import ContentShare from './components/content-share/ContentShare';
-
+import aboutImg from "./app/about/shadhin-labs.png"
+import dashImg from "./app/about/dash.png"
 function App() {
     return (
 
@@ -75,16 +76,17 @@ function App() {
 // }
 
 function Dashboard() {
+    let userIdShare = window.location.href;
     return (
         <div>
             <h2>Dashboard</h2>
-            {/* <div>
+            <div>
                 <MetaDecorator description="This is about page description"
-                    imageUrl={aboutImg} imageAlt="about image" title="About Page" /> */}
-            {/* <img src={aboutImg}/> */}
-            {/* <img src={}/> */}
-            {/* About pagess
-                <ContentShare url={userIdShare} /></div>; */}
+                    imageUrl={aboutImg} imageAlt="about image" title="About Page" />
+
+                <img src={dashImg} />
+                About pagess
+                <ContentShare url={userIdShare} /></div>;
         </div>
     );
 }
