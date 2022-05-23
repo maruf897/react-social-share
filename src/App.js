@@ -13,13 +13,13 @@ function App() {
                 <meta name="description" content="App Description" />
                 <meta name="theme-color" content="#008f68" />
             </Helmet>
-            <Router>
+            <BrowserRouter>
                 <Routes>
                     <Route path="/about" element={<About />} />
                     <Route path="/" exact
                         element={<Home />} />
                 </Routes>
-            </Router>
+            </BrowserRouter>
 
         </div>
     );

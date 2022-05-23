@@ -1,39 +1,19 @@
 import React from 'react';
-import ReactDOM from 'react-dom/client';
+import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
-import { hydrate, render } from "react-dom";
-import Helmet from 'react-helmet';
-import { BrowserRouter, Route, Routes } from 'react-router-dom';
-import About from './app/about/about';
-import Home from './app/home/home';
 
-const APP = (<React.StrictMode>
-  <div>
-    <Helmet>
-      <title>App Title</title>
-      <meta name="og:title" content="React share" />
-      <meta name="description" content="App Description" />
-      <meta name="theme-color" content="#008f68" />
-    </Helmet>
-    <BrowserRouter>
-      <Routes>
-        <Route path="/about" element={<About />} />
-        <Route path="/" exact
-          element={<Home />} />
-      </Routes>
-    </BrowserRouter>
 
-  </div>
-</React.StrictMode>)
+
+
 const rootElement = document.getElementById("root");
-if (rootElement.hasChildNodes()) {
-  hydrate(APP, rootElement);
-} else {
-  render(APP, rootElement);
-}
 
+if (rootElement.hasChildNodes()) {
+  ReactDOM.hydrate(<App />, rootElement);
+} else {
+  ReactDOM.render(<App />, rootElement);
+}
 // const root = ReactDOM.createRoot(document.getElementById('root'));
 // root.render(
 
