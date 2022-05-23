@@ -1,9 +1,9 @@
 import './App.css';
-// import Home from "./app/home/home";
+import Home from "./app/home/home";
 import { Helmet } from "react-helmet";
 import { Route, Router, Link, Switch } from 'react-router-dom';
 import { BrowserRouter } from 'react-router-dom';
-// import About from './app/about/about';
+import About from './app/about/about';
 
 function App() {
     return (
@@ -56,21 +56,21 @@ function App() {
 // You can think of these components as "pages"
 // in your app.
 
-function Home() {
-    return (
-        <div>
-            <h2>Home</h2>
-        </div>
-    );
-}
+// function Home() {
+//     return (
+//         <div>
+//             <h2>Home</h2>
+//         </div>
+//     );
+// }
 
-function About() {
-    return (
-        <div>
-            <h2>About</h2>
-        </div>
-    );
-}
+// function About() {
+//     return (
+//         <div>
+//             <h2>About</h2>
+//         </div>
+//     );
+// }
 
 function Dashboard() {
     return (
