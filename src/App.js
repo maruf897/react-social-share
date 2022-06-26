@@ -1,5 +1,5 @@
-import './App.css';
 import Home from "./app/home/home";
+import React from 'react';
 import { Helmet } from "react-helmet";
 import { Route, Router, Link, Switch } from 'react-router-dom';
 import { BrowserRouter } from 'react-router-dom';
